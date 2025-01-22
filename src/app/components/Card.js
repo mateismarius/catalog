@@ -1,6 +1,7 @@
 import Image from 'next/image'
 
-const Card = ({ produs }) => (
+const Card = ({ produs }) => 
+    (
     <div className="bg-white shadow-md rounded-lg p-4 text-center">
             <Image
                 src={produs.img} // Linkul către imagine
