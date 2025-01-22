@@ -22,7 +22,7 @@ export default function Navbar({ activeCategory, setActiveCategory, categories }
                   className="h-8 w-auto"
                 />
               </div>
-              <div className="flex items-center">
+              <div className="flex items-center hidden md:inline-flex">
                 <p className="text-gray-900 font semi-bold">Catalog produse</p>
               </div>
               <a
